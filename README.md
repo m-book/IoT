@@ -16,6 +16,11 @@ IoT
 
 #### IoTServerの起動
 ###### MySQLのセットアップ
+* mysql> CREATE USER test IDENTIFIED BY 'testtest';
+* mysql> GRANT ALL ON iot_test.* TO test;
+* mysql> CREATE DATABASE iot_test;
+
+###### serverの軌道
 * cd IoT_Server  
 * \# self.mysql.create_table()のコメントアウト解除(初回起動時のみ)
 * python IoTserver.py  
