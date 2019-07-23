@@ -16,11 +16,11 @@ IoT
 
 #### IoTServerの起動
 ###### MySQLのセットアップ
-* cd IoT_Server
+* cd IoT_Server  
 初回起動時のみ
-* # self.mysql.create_table()のコメントアウト解除
+* \# self.mysql.create_table()のコメントアウト解除
 共通
-* python IoTserver.py
+* python IoTserver.py  
 *IoTServerを先に起動しておかないとM5Stack側で表示がおかしくなるかもしれません*
 ## Install
 * git clone git@github.com:m-book/IoT.git.git
